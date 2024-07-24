@@ -1,0 +1,15 @@
+SCR_DestructibleBuildingEntity {
+ ID "61EAE8C435E0EED4"
+ components {
+  MeshObject "{61EAE8C5BC5762A7}" {
+   Object "{60292E6E6E90C350}Assets/NovosProps/hei_prop_heist_pic_09.xob"
+  }
+  RigidBody "{61EAE8C4F612DF12}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{61EAE8C4C3FB251D}" {
+  }
+ }
+ coords 869.194 3.969 2265.733
+}

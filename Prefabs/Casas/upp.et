@@ -1,0 +1,13 @@
+SCR_DestructibleBuildingEntity {
+ ID "61EAE8C43846AF77"
+ components {
+  MeshObject "{61EAE8C5812A71A5}" {
+   Object "{46CD20B573B64CFE}Assets/NovosProps/upp.xob"
+  }
+  RigidBody "{61EAE8C506CA758D}" {
+  }
+  RplComponent "{61EAE8C50D6C79DD}" {
+  }
+ }
+ coords 859.562 3.969 2293.974
+}

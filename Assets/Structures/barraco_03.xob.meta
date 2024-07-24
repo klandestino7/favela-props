@@ -1,0 +1,109 @@
+MetaFileClass {
+ Name "{640D1D6D0CC88FB7}Assets/Structures/barraco_03.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61E1798DF8F5B788}" {
+     SourceMaterial "parede_04"
+     AssignedMaterial "{AFBD190E71C862E3}Assets/Data/parede_04.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7A8}" {
+     SourceMaterial "cortina_02"
+     AssignedMaterial "{F2EB82EFEA10472A}Assets/Data/cortina_02.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7A2}" {
+     SourceMaterial "concreto_01"
+     AssignedMaterial "{EEBFE1F7A979EF04}Assets/Data/concreto_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7A7}" {
+     SourceMaterial "metal_01"
+     AssignedMaterial "{0AD707AA5832420A}Assets/Data/metal_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7DF}" {
+     SourceMaterial "vidro_01"
+     AssignedMaterial "{5D2D35E2C5958385}Assets/Data/vidro_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7D0}" {
+     SourceMaterial "porta_01"
+     AssignedMaterial "{9A71F8E852308BF2}Assets/Data/porta_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7D5}" {
+     SourceMaterial "parede_10"
+     AssignedMaterial "{7F41B5CF49D5DB8A}Assets/Data/parede_10.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7CA}" {
+     SourceMaterial "janelas_01"
+     AssignedMaterial "{378C4F1CF850A7EF}Assets/Data/janelas_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7CF}" {
+     SourceMaterial "cortina_01"
+     AssignedMaterial "{AC03ABAC559DC925}Assets/Data/cortina_01.emat"
+    }
+    MaterialAssignClass "{61E1798DF8F5B7C2}" {
+     SourceMaterial "branco"
+     AssignedMaterial "{7B9E124553E2E07A}Assets/Data/branco.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "1" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Geometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GeometryPhysX {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_GeometryPhysX.001" {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ViewGeometry {
+     LayerPreset "ViewGeo"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61E1798DF8EE5C00}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61E1798DF8EE5CFA}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61E1798DF8EE5D00}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61E1798DF8EE5D50}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61E1798DF8EE5D68}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61E1798DF8EE5DBB}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

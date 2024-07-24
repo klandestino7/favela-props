@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{FEF05C3468B960A8}Assets/Textures/concreto_8_n.edds"
+ Configurations {
+  TGAResourceClass PC : "{CEA87F769FD618D2}Configs/System/ResourceTypes/PC/TextureNormalMap.conf" {
+  }
+  TGAResourceClass XBOX_ONE : "{5B84FAB5D39FB8AA}Configs/System/ResourceTypes/XBOX_ONE/TextureNormalMap.conf" {
+  }
+  TGAResourceClass XBOX_SERIES : "{1B409AA3788B720F}Configs/System/ResourceTypes/XBOX_SERIES/TextureNormalMap.conf" {
+  }
+  TGAResourceClass PS4 : "{9533DFD9EDDCEDD2}Configs/System/ResourceTypes/PS4/TextureNormalMap.conf" {
+  }
+  TGAResourceClass PS5 : "{5CEA2418C9F889F8}configs/ResourceTypes/PS5/TextureTerrainNormal.conf" {
+  }
+  TGAResourceClass HEADLESS : "{FC84ABE4B37D0DA0}Configs/System/ResourceTypes/HEADLESS/TextureNormalMap.conf" {
+  }
+ }
+}

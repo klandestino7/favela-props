@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{CA397695ECC8D2BC}Assets/NovosProps/Data/im_wall_overlay03im_wall_overlay03_a.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

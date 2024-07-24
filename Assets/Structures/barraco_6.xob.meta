@@ -1,0 +1,141 @@
+MetaFileClass {
+ Name "{91DF806571D42F38}Assets/Structures/barraco_6.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61E0FD8759D553A4}" {
+     SourceMaterial "concrete_12_dm"
+     AssignedMaterial "{89F0359B36593C21}Assets/Data/concrete_12_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553FA}" {
+     SourceMaterial "fav2_metal_crgtd_01a_d"
+     AssignedMaterial "{0A2A2E261FC9EB1F}Assets/Data/fav2_metal_crgtd_01a_d.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553FC}" {
+     SourceMaterial "door_wood_dty_07_dm"
+     AssignedMaterial "{C58669597AD92D4D}Assets/Data/door_wood_dty_07_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553F0}" {
+     SourceMaterial "fav2_brickset01c_dm"
+     AssignedMaterial "{B348DED94BD897F8}Assets/Data/fav2_brickset01c_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553F4}" {
+     SourceMaterial "w_ext_conc_03_d"
+     AssignedMaterial "{AB2E6406EE38766A}Assets/Data/w_ext_conc_03_d.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553ED}" {
+     SourceMaterial "window_fav_01_dm"
+     AssignedMaterial "{C62188A4115CA45D}Assets/Data/window_fav_01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553E1}" {
+     SourceMaterial "fav2_concset01b_dm"
+     AssignedMaterial "{CD4BD10D01AA6420}Assets/Data/fav2_concset01b_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D553E6}" {
+     SourceMaterial "window_fav_05_d"
+     AssignedMaterial "{DDDE82B99AB83C45}Assets/Data/window_fav_05_d.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D5501A}" {
+     SourceMaterial "p_el_elcmet_01_dm"
+     AssignedMaterial "{1875C49F3B1F0301}Assets/Data/p_el_elcmet_01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D5501F}" {
+     SourceMaterial "metal_rust_02_dm"
+     AssignedMaterial "{69EEFCC398374843}Assets/Data/metal_rust_02_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D55015}" {
+     SourceMaterial "plaster_01_e_dm"
+     AssignedMaterial "{5D30DE61A7B8903C}Assets/Data/plaster_01_e_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D5500A}" {
+     SourceMaterial "wood_plank_dty_01_dm"
+     AssignedMaterial "{938B68DDA5663F06}Assets/Data/wood_plank_dty_01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D5500E}" {
+     SourceMaterial "fav1i_mconc_dm"
+     AssignedMaterial "{C2692059A4A29293}Assets/Data/fav1i_mconc_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D55003}" {
+     SourceMaterial "fav2_concwall01_dm"
+     AssignedMaterial "{32BF9CAADFD9E59D}Assets/Data/fav2_concwall01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D55000}" {
+     SourceMaterial "int_wood_04_d"
+     AssignedMaterial "{9E84F5B95FE594E3}Assets/Data/int_wood_04_d.emat"
+    }
+    MaterialAssignClass "{61E0FD8759D55004}" {
+     SourceMaterial "concrete_21_dm"
+     AssignedMaterial "{C71E50F6BDB2B1BC}Assets/Data/concrete_21_dm.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "0" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FireGeometry {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GeometryPhysX {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_GeometryPhysX.001" {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ViewGeometry {
+     LayerPreset "ViewGeo"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61E0FD8759C4CC4F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61E0FD8759C4CD49}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61E0FD8759C4CDAC}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61E0FD8759C4CDFC}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61E0FD8759C4F209}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61E0FD8759C4F25B}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

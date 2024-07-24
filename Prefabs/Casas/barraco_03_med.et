@@ -1,0 +1,27 @@
+SCR_DestructibleBuildingEntity {
+ ID "61E4B8E93E6EE8D1"
+ components {
+  SignalsManagerComponent "{61E10D276B65E9F3}" {
+   Enabled 0
+  }
+  MeshObject "{61E0FD870A193D41}" {
+   Object "{780CAB25FE174B1B}Assets/barraco_3.xob"
+   LODFactors {
+    500 250 200 100 50 20 1
+   }
+   ObjectHeightmapBias 1
+  }
+  RigidBody "{61E10D27791265F2}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{61E10D27413C1142}" {
+   Enabled 0
+  }
+  Hierarchy "{61E10D27423A7A7E}" {
+   Enabled 0
+  }
+ }
+ coords 1229.676 34.766 3416.796
+ angleY 100.252
+}

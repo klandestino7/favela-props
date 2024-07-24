@@ -1,0 +1,13 @@
+DestructibleEntity {
+ ID "61E4B8EA73F33A6E"
+ components {
+  MeshObject "{61E17987677B03CA}" {
+   Object "{54C574CEFF0B20E5}Assets/lombada.xob"
+  }
+  RigidBody "{61E2A79F98A623FB}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1272.768 24.345 3397.459
+}

@@ -1,0 +1,9 @@
+GenericEntity {
+ ID "61E4B8E9E07EC8B0"
+ components {
+  MeshObject "{61E1798788D29A14}" {
+   Object "{E45C142EE19E61DA}Assets/telhado.xob"
+  }
+ }
+ coords 1288.201 38.056 3408.832
+}

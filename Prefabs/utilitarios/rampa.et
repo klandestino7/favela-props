@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "61E4B8EA224F1E61"
+ components {
+  MeshObject "{61E1798016C5FB92}" {
+   Object "{3391A18D91EB8924}Assets/rampa.xob"
+  }
+  RigidBody "{61E2A79C5AC76AA2}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1240.647 32.923 3417.723
+}

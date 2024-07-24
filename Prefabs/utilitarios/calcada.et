@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "61E4B8E9F187E164"
+ components {
+  MeshObject "{61E1798765C426EB}" {
+   Object "{420934613EB91BCC}Assets/calcada.xob"
+  }
+  RigidBody "{61E2A79F611DF7D8}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1252.628 21.611 3392.47
+}

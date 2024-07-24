@@ -1,0 +1,56 @@
+MetaFileClass {
+ Name "{F17F9904D8FC3D85}Assets/NovosProps/hei_prop_heist_pic_03.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61EADC3F1E8AEDB8}" {
+     SourceMaterial "hei_prop_heist_pic_03_1"
+     AssignedMaterial "{8AF1381A826BCA0D}Assets/NovosProps/Data/hei_prop_heist_pic_03_1.emat"
+    }
+    MaterialAssignClass "{61EADC3F1E8AEDD4}" {
+     SourceMaterial "id1_26_cmk_bboard01"
+     AssignedMaterial "{8344C7D05CB96A0D}Assets/NovosProps/Data/id1_26_cmk_bboard01.emat"
+    }
+    MaterialAssignClass "{61EADC3F1E8AEDCD}" {
+     SourceMaterial "hei_prop_heist_pic_03_0"
+     AssignedMaterial "{7EF97F828FB6A279}Assets/NovosProps/Data/hei_prop_heist_pic_03_0.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Object {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Geometry {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61EADC3F1DFC2165}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61EADC3F1DFC262B}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61EADC3F1DFC2644}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61EADC3F1DFC2692}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61EADC3F1DFC26AE}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61EADC3F1DFC26C4}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

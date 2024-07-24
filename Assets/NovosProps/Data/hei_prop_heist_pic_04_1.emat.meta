@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{C3E2627EA1A47526}Assets/NovosProps/Data/hei_prop_heist_pic_04_1.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

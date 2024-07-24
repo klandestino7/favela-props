@@ -1,0 +1,5 @@
+MatPBRBasic {
+ EmissiveLV -3.355
+ BCRMap "{D8A09132DE9E545C}Assets/Textures/hei_prop_heist_pic_01_01.edds"
+ NormalPower 1.484
+}

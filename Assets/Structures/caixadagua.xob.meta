@@ -1,0 +1,69 @@
+MetaFileClass {
+ Name "{1976E8392DE2C7EA}Assets/Structures/caixadagua.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61E1798EED1ECB5A}" {
+     SourceMaterial "caixadagua"
+     AssignedMaterial "{24DC82B4C9133825}Assets/Data/caixadagua.emat"
+    }
+    MaterialAssignClass "{61E1798EED1ECB8A}" {
+     SourceMaterial "parede_08"
+     AssignedMaterial "{96ED5DEB26146C4C}Assets/Data/parede_08.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "1" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FireGeometry {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{5D8353FEBE244911}plastic.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GeometryPhysX {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61E1798EED0AA137}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61E1798EED0AA653}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61E1798EED0AA684}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61E1798EED0AA6F2}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61E1798EED0AA72A}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61E1798EED0AA760}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

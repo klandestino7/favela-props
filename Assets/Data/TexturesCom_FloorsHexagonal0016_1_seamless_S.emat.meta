@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{777DE8EAF2002633}Assets/Data/TexturesCom_FloorsHexagonal0016_1_seamless_S.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

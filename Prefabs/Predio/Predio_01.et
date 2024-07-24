@@ -1,0 +1,18 @@
+SCR_DestructibleBuildingEntity {
+ ID "61E4B8E9A4E2C363"
+ components {
+  MeshObject "{61E17981847F4C86}" {
+   Object "{419E925A2E830856}Assets/prediocda.xob"
+   LODFactors {
+    20 15 10 1 1
+   }
+  }
+  RigidBody "{61E2A79FAF7B5A96}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{61E2A79FB35AC488}" {
+  }
+ }
+ coords 1284.573 34.236 3436.853
+}

@@ -1,0 +1,145 @@
+MetaFileClass {
+ Name "{08C139FC6C331EA8}Assets/Structures/barraco_5.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61E0FD87A8171785}" {
+     SourceMaterial "metal_rust_02_dm"
+     AssignedMaterial "{69EEFCC398374843}Assets/Data/metal_rust_02_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717A3}" {
+     SourceMaterial "fav2_window_01_d"
+     AssignedMaterial "{9538E7211AF9493B}Assets/Data/fav2_window_01_d.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717A0}" {
+     SourceMaterial "bs_building_stucco_01"
+     AssignedMaterial "{7138E679813EF46F}Assets/Data/bs_building_stucco_01.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717A4}" {
+     SourceMaterial "fav2_concset01b_dm"
+     AssignedMaterial "{CD4BD10D01AA6420}Assets/Data/fav2_concset01b_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717DF}" {
+     SourceMaterial "fav1i_mconc_dm"
+     AssignedMaterial "{C2692059A4A29293}Assets/Data/fav1i_mconc_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717D1}" {
+     SourceMaterial "p_fav2_newdoorb_dm"
+     AssignedMaterial "{5647838D6E4C96CE}Assets/Data/p_fav2_newdoorb_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717CB}" {
+     SourceMaterial "fav2_brickset01c_dm"
+     AssignedMaterial "{B348DED94BD897F8}Assets/Data/fav2_brickset01c_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717C8}" {
+     SourceMaterial "concrete_32_dm"
+     AssignedMaterial "{370054FB7517D22A}Assets/Data/concrete_32_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717C3}" {
+     SourceMaterial "fav2_metal_crgtd_01a_d"
+     AssignedMaterial "{0A2A2E261FC9EB1F}Assets/Data/fav2_metal_crgtd_01a_d.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717C0}" {
+     SourceMaterial "bd_concretewall_01_dm"
+     AssignedMaterial "{2554A93329D14A3C}Assets/Data/bd_concretewall_01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717F8}" {
+     SourceMaterial "win_bars_fav_01_dwin_bars_fav_0"
+     AssignedMaterial "{7D44D56A2FFF828B}Assets/Data/win_bars_fav_01_dwin_bars_fav_0.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717F0}" {
+     SourceMaterial "fav2_winglasnw1_dm"
+     AssignedMaterial "{831C822641AF88D3}Assets/Data/fav2_winglasnw1_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717F5}" {
+     SourceMaterial "p_fav2_metdoora_dm"
+     AssignedMaterial "{A7826120C121363F}Assets/Data/p_fav2_metdoora_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717E9}" {
+     SourceMaterial "concrete_12_dm"
+     AssignedMaterial "{89F0359B36593C21}Assets/Data/concrete_12_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717EE}" {
+     SourceMaterial "bd_concretewall_00_dm"
+     AssignedMaterial "{20A16AF4C283B08A}Assets/Data/bd_concretewall_00_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717E3}" {
+     SourceMaterial "wood_plank_dty_01_dm"
+     AssignedMaterial "{938B68DDA5663F06}Assets/Data/wood_plank_dty_01_dm.emat"
+    }
+    MaterialAssignClass "{61E0FD87A81717E0}" {
+     SourceMaterial "door_wood_dty_07_dm"
+     AssignedMaterial "{C58669597AD92D4D}Assets/Data/door_wood_dty_07_dm.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "0" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FireGeometry {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GeometryPhysX {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_GeometryPhysX.001" {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_ViewGeometry {
+     LayerPreset "ViewGeo"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61E0FD87A805A51F}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61E0FD87A805A5E4}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61E0FD87A805AA73}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61E0FD87A805AAB4}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61E0FD87A805AAF1}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61E0FD87A805AB3C}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

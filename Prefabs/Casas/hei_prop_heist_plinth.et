@@ -1,0 +1,15 @@
+SCR_DestructibleBuildingEntity {
+ ID "61EAE8C436296147"
+ components {
+  MeshObject "{61EAE8C5BE68080D}" {
+   Object "{EF8E4A7FE7069DB8}Assets/NovosProps/hei_prop_heist_plinth.xob"
+  }
+  RigidBody "{61EAE8C53C8DC78E}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{61EAE8C53FDC3D56}" {
+  }
+ }
+ coords 877.381 0.01 2292.588
+}

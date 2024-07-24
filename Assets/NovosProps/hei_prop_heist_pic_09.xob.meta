@@ -1,0 +1,60 @@
+MetaFileClass {
+ Name "{60292E6E6E90C350}Assets/NovosProps/hei_prop_heist_pic_09.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61EADC3F1CF617FF}" {
+     SourceMaterial "hei_prop_heist_pic_09_0"
+     AssignedMaterial "{171BD3C5B444509C}Assets/NovosProps/Data/hei_prop_heist_pic_09_0.emat"
+    }
+    MaterialAssignClass "{61EADC3F1CF61408}" {
+     SourceMaterial "hei_prop_heist_pic_09_1"
+     AssignedMaterial "{E313945DB99938E8}Assets/NovosProps/Data/hei_prop_heist_pic_09_1.emat"
+    }
+    MaterialAssignClass "{61EADC3F1CF61402}" {
+     SourceMaterial "graf4"
+     AssignedMaterial "{23F0E88F09D771B0}Assets/NovosProps/Data/graf4.emat"
+    }
+    MaterialAssignClass "{61EADC3F1CF61406}" {
+     SourceMaterial "hei_prop_heist_pic_09_1_1"
+     AssignedMaterial "{3A64A0754188BD02}Assets/NovosProps/Data/hei_prop_heist_pic_09_1_1.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Object {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Geometry {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61EADC3F1BEB6A01}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61EADC3F1BEB6AFE}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61EADC3F1BEB6B01}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61EADC3F1BEB6B5F}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61EADC3F1BEB6B75}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61EADC3F1BEB6B8D}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

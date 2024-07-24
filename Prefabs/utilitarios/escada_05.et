@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "61E4B8EA48ABBEE1"
+ components {
+  MeshObject "{61E17981BF52CEBE}" {
+   Object "{A07DD2FC84B1DFD4}Assets/escada5.xob"
+  }
+  RigidBody "{61E2A79D12CAC875}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1216.98 34.695 3459.656
+}

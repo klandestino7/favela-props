@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{99FB61DA22CDE597}Assets/Data/TexturesCom_MetalPlatesDirty0115_1_seamless_S.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

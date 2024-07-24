@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{7D44D56A2FFF828B}Assets/Data/win_bars_fav_01_dwin_bars_fav_0.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

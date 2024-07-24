@@ -1,0 +1,17 @@
+GenericEntity {
+ ID "61E4B8E9ED7F170D"
+ components {
+  MeshObject "{61E1798763C14A0A}" {
+   Object "{8081E656EE98191C}Assets/curva.xob"
+   LODFactors {
+    20 15 10 1 1
+   }
+  }
+  RigidBody "{61E2A79F904BFD9C}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1297.491 27.221 3401.041
+ angleZ 7.078
+}

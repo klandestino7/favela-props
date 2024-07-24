@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity {
+ ID "61E4B8E9C169CAB1"
+ components {
+  MeshObject "{61E179888AA1CAEA}" {
+   Object "{1CDE6CC9198DCE21}Assets/antena.xob"
+   LODFactors {
+    20 15 10 1 1
+   }
+  }
+  RigidBody "{61E2A79C89027095}" {
+  }
+  RplComponent "{61E2A79C8BFC2928}" {
+  }
+ }
+ coords 1235.742 34.668 3429.18
+}

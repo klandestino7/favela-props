@@ -1,0 +1,16 @@
+SCR_DestructibleBuildingEntity {
+ ID "61E4B8E9B1C19458"
+ components {
+  MeshObject "{61E179811CC9C7B9}" {
+   Object "{0153ED9FB7791916}Assets/barraco_19.xob"
+   LODFactors {
+    20 15 10 1 1
+   }
+  }
+  RigidBody "{61E2A79F261D036B}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1262.648 30.032 3440.059
+}

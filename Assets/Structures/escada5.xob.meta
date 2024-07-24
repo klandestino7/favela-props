@@ -1,0 +1,535 @@
+MetaFileClass {
+ Name "{A07DD2FC84B1DFD4}Assets/Structures/escada5.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61E17989CAE4210F}" {
+     SourceMaterial "parede_0"
+     AssignedMaterial "{5AD6CB8E0549C29C}Assets/Data/parede_0.emat"
+    }
+    MaterialAssignClass "{61E17989CAE42137}" {
+     SourceMaterial "concreto"
+     AssignedMaterial "{4BBCF733DD550033}Assets/Data/concreto.emat"
+    }
+    MaterialAssignClass "{61E17989CAE42134}" {
+     SourceMaterial "cimento"
+     AssignedMaterial "{7F392FCFAD2C52F7}Assets/Data/cimento.emat"
+    }
+    MaterialAssignClass "{61E17989CAE4212A}" {
+     SourceMaterial "ferrugem"
+     AssignedMaterial "{B7307C87407B251A}Assets/Data/ferrugem.emat"
+    }
+    MaterialAssignClass "{61E17989CAE4212F}" {
+     SourceMaterial "DefaultGeneratedMaterial"
+     AssignedMaterial "{24C74A9E7CFC388D}Assets/Data/DefaultGeneratedMaterial.emat"
+    }
+   }
+   MeshParams {
+    MeshParam "1" {
+    }
+    MeshParam Component01 {
+    }
+    MeshParam "Component01.001" {
+    }
+    MeshParam "Component01.002" {
+    }
+    MeshParam "Component01.003" {
+    }
+    MeshParam "Component01.004" {
+    }
+    MeshParam "Component01.005" {
+    }
+    MeshParam "Component01.006" {
+    }
+    MeshParam "Component01.007" {
+    }
+    MeshParam "Component01.008" {
+    }
+    MeshParam "Component01.009" {
+    }
+    MeshParam "Component01.010" {
+    }
+    MeshParam "Component01.011" {
+    }
+    MeshParam Component02 {
+    }
+    MeshParam "Component02.001" {
+    }
+    MeshParam "Component02.002" {
+    }
+    MeshParam "Component02.003" {
+    }
+    MeshParam "Component02.004" {
+    }
+    MeshParam "Component02.005" {
+    }
+    MeshParam "Component02.006" {
+    }
+    MeshParam "Component02.007" {
+    }
+    MeshParam "Component02.008" {
+    }
+    MeshParam "Component02.009" {
+    }
+    MeshParam "Component02.010" {
+    }
+    MeshParam "Component02.011" {
+    }
+    MeshParam Component03 {
+    }
+    MeshParam "Component03.001" {
+    }
+    MeshParam "Component03.002" {
+    }
+    MeshParam "Component03.003" {
+    }
+    MeshParam "Component03.004" {
+    }
+    MeshParam "Component03.005" {
+    }
+    MeshParam "Component03.006" {
+    }
+    MeshParam "Component03.007" {
+    }
+    MeshParam "Component03.008" {
+    }
+    MeshParam "Component03.009" {
+    }
+    MeshParam "Component03.010" {
+    }
+    MeshParam "Component03.011" {
+    }
+    MeshParam Component04 {
+    }
+    MeshParam "Component04.001" {
+    }
+    MeshParam "Component04.002" {
+    }
+    MeshParam "Component04.003" {
+    }
+    MeshParam "Component04.004" {
+    }
+    MeshParam "Component04.005" {
+    }
+    MeshParam "Component04.006" {
+    }
+    MeshParam "Component04.007" {
+    }
+    MeshParam "Component04.008" {
+    }
+    MeshParam "Component04.009" {
+    }
+    MeshParam "Component04.010" {
+    }
+    MeshParam "Component04.011" {
+    }
+    MeshParam Component05 {
+    }
+    MeshParam "Component05.001" {
+    }
+    MeshParam "Component05.002" {
+    }
+    MeshParam "Component05.003" {
+    }
+    MeshParam "Component05.004" {
+    }
+    MeshParam "Component05.005" {
+    }
+    MeshParam "Component05.006" {
+    }
+    MeshParam "Component05.007" {
+    }
+    MeshParam "Component05.008" {
+    }
+    MeshParam "Component05.009" {
+    }
+    MeshParam "Component05.010" {
+    }
+    MeshParam "Component05.011" {
+    }
+    MeshParam Component06 {
+    }
+    MeshParam "Component06.001" {
+    }
+    MeshParam "Component06.002" {
+    }
+    MeshParam "Component06.003" {
+    }
+    MeshParam "Component06.004" {
+    }
+    MeshParam "Component06.005" {
+    }
+    MeshParam "Component06.006" {
+    }
+    MeshParam "Component06.007" {
+    }
+    MeshParam "Component06.008" {
+    }
+    MeshParam "Component06.009" {
+    }
+    MeshParam "Component06.010" {
+    }
+    MeshParam "Component06.011" {
+    }
+    MeshParam "Component06.012" {
+    }
+    MeshParam "Component06.013" {
+    }
+    MeshParam Component07 {
+    }
+    MeshParam "Component07.001" {
+    }
+    MeshParam "Component07.002" {
+    }
+    MeshParam "Component07.003" {
+    }
+    MeshParam "Component07.004" {
+    }
+    MeshParam "Component07.005" {
+    }
+    MeshParam "Component07.006" {
+    }
+    MeshParam "Component07.007" {
+    }
+    MeshParam "Component07.008" {
+    }
+    MeshParam "Component07.009" {
+    }
+    MeshParam "Component07.010" {
+    }
+    MeshParam "Component07.011" {
+    }
+    MeshParam "Component07.012" {
+    }
+    MeshParam "Component07.013" {
+    }
+    MeshParam Component08 {
+    }
+    MeshParam "Component08.001" {
+    }
+    MeshParam "Component08.002" {
+    }
+    MeshParam "Component08.003" {
+    }
+    MeshParam "Component08.004" {
+    }
+    MeshParam "Component08.005" {
+    }
+    MeshParam "Component08.006" {
+    }
+    MeshParam "Component08.007" {
+    }
+    MeshParam "Component08.008" {
+    }
+    MeshParam "Component08.009" {
+    }
+    MeshParam "Component08.010" {
+    }
+    MeshParam "Component08.011" {
+    }
+    MeshParam "Component08.012" {
+    }
+    MeshParam "Component08.013" {
+    }
+    MeshParam Component09 {
+    }
+    MeshParam "Component09.001" {
+    }
+    MeshParam "Component09.002" {
+    }
+    MeshParam "Component09.003" {
+    }
+    MeshParam "Component09.004" {
+    }
+    MeshParam "Component09.005" {
+    }
+    MeshParam "Component09.006" {
+    }
+    MeshParam "Component09.007" {
+    }
+    MeshParam "Component09.008" {
+    }
+    MeshParam "Component09.009" {
+    }
+    MeshParam "Component09.010" {
+    }
+    MeshParam "Component09.011" {
+    }
+    MeshParam "Component09.012" {
+    }
+    MeshParam "Component09.013" {
+    }
+    MeshParam Component10 {
+    }
+    MeshParam "Component10.001" {
+    }
+    MeshParam "Component10.002" {
+    }
+    MeshParam "Component10.003" {
+    }
+    MeshParam "Component10.004" {
+    }
+    MeshParam "Component10.005" {
+    }
+    MeshParam "Component10.006" {
+    }
+    MeshParam "Component10.007" {
+    }
+    MeshParam "Component10.008" {
+    }
+    MeshParam "Component10.009" {
+    }
+    MeshParam "Component10.010" {
+    }
+    MeshParam "Component10.011" {
+    }
+    MeshParam "Component10.012" {
+    }
+    MeshParam "Component10.013" {
+    }
+    MeshParam Component11 {
+    }
+    MeshParam "Component11.001" {
+    }
+    MeshParam "Component11.002" {
+    }
+    MeshParam "Component11.003" {
+    }
+    MeshParam "Component11.004" {
+    }
+    MeshParam "Component11.005" {
+    }
+    MeshParam "Component11.006" {
+    }
+    MeshParam "Component11.007" {
+    }
+    MeshParam "Component11.008" {
+    }
+    MeshParam "Component11.009" {
+    }
+    MeshParam "Component11.010" {
+    }
+    MeshParam "Component11.011" {
+    }
+    MeshParam "Component11.012" {
+    }
+    MeshParam "Component11.013" {
+    }
+    MeshParam Component12 {
+    }
+    MeshParam "Component12.001" {
+    }
+    MeshParam "Component12.002" {
+    }
+    MeshParam "Component12.003" {
+    }
+    MeshParam "Component12.004" {
+    }
+    MeshParam "Component12.005" {
+    }
+    MeshParam "Component12.006" {
+    }
+    MeshParam "Component12.007" {
+    }
+    MeshParam "Component12.008" {
+    }
+    MeshParam "Component12.009" {
+    }
+    MeshParam Component13 {
+    }
+    MeshParam "Component13.001" {
+    }
+    MeshParam "Component13.002" {
+    }
+    MeshParam "Component13.003" {
+    }
+    MeshParam "Component13.004" {
+    }
+    MeshParam "Component13.005" {
+    }
+    MeshParam "Component13.006" {
+    }
+    MeshParam "Component13.007" {
+    }
+    MeshParam "Component13.008" {
+    }
+    MeshParam "Component13.009" {
+    }
+    MeshParam "Component13.010" {
+    }
+    MeshParam "Component13.011" {
+    }
+    MeshParam Component14 {
+    }
+    MeshParam "Component14.001" {
+    }
+    MeshParam "Component14.002" {
+    }
+    MeshParam "Component14.003" {
+    }
+    MeshParam "Component14.004" {
+    }
+    MeshParam "Component14.005" {
+    }
+    MeshParam "Component14.006" {
+    }
+    MeshParam "Component14.007" {
+    }
+    MeshParam "Component14.008" {
+    }
+    MeshParam "Component14.009" {
+    }
+    MeshParam "Component14.010" {
+    }
+    MeshParam "Component14.011" {
+    }
+    MeshParam "Component14.012" {
+    }
+    MeshParam "Component14.013" {
+    }
+    MeshParam "Component14.014" {
+    }
+    MeshParam "Component14.015" {
+    }
+    MeshParam "Component14.016" {
+    }
+    MeshParam Component15 {
+    }
+    MeshParam "Component15.001" {
+    }
+    MeshParam "Component15.002" {
+    }
+    MeshParam "Component15.003" {
+    }
+    MeshParam "Component15.004" {
+    }
+    MeshParam "Component15.005" {
+    }
+    MeshParam "Component15.006" {
+    }
+    MeshParam "Component15.007" {
+    }
+    MeshParam "Component15.008" {
+    }
+    MeshParam "Component15.009" {
+    }
+    MeshParam "Component15.010" {
+    }
+    MeshParam "Component15.011" {
+    }
+    MeshParam "Component15.012" {
+    }
+    MeshParam "Component15.013" {
+    }
+    MeshParam "Component15.014" {
+    }
+    MeshParam "Component15.015" {
+    }
+    MeshParam Component16 {
+    }
+    MeshParam "Component16.001" {
+    }
+    MeshParam "Component16.002" {
+    }
+    MeshParam "Component16.003" {
+    }
+    MeshParam "Component16.004" {
+    }
+    MeshParam "Component16.005" {
+    }
+    MeshParam "Component16.006" {
+    }
+    MeshParam "Component16.007" {
+    }
+    MeshParam "Component16.008" {
+    }
+    MeshParam "Component16.009" {
+    }
+    MeshParam "Component16.010" {
+    }
+    MeshParam "Component16.011" {
+    }
+    MeshParam "Component16.012" {
+    }
+    MeshParam "Component16.013" {
+    }
+    MeshParam "Component16.014" {
+    }
+    MeshParam "Component16.015" {
+    }
+    MeshParam Component17 {
+    }
+    MeshParam "Component17.001" {
+    }
+    MeshParam "Component17.002" {
+    }
+    MeshParam "Component17.003" {
+    }
+    MeshParam "Component17.004" {
+    }
+    MeshParam "Component17.005" {
+    }
+    MeshParam "Component17.006" {
+    }
+    MeshParam "Component17.007" {
+    }
+    MeshParam "Component17.008" {
+    }
+    MeshParam "Component17.009" {
+    }
+    MeshParam "Component17.010" {
+    }
+    MeshParam "Component17.011" {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_FireGeometry {
+     LayerPreset "FireView"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_Geometry {
+     LayerPreset "Prop"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam UTM_GeometryPhysX {
+     LayerPreset "Vehicle"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61E17989CA8B3467}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61E17989CA8B3523}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61E17989CA8B356D}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61E17989CA8B35B5}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61E17989CA8B35C5}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61E17989CA8B3A14}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

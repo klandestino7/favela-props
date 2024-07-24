@@ -1,0 +1,16 @@
+GenericEntity {
+ ID "61E4B8EA1C1845BE"
+ components {
+  MeshObject "{61E1798783D9BA31}" {
+   Object "{BB578CFE4A2C9245}Assets/ruareta.xob"
+   LODFactors {
+    20 15 10 1 1
+   }
+  }
+  RigidBody "{61E2A79F69AE5CAE}" {
+   ModelGeometry 1
+   Static 1
+  }
+ }
+ coords 1299.661 31.938 3412.42
+}

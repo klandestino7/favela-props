@@ -1,0 +1,8 @@
+GameProject {
+ ID "FavelaProps"
+ GUID "61F11997EC86A01A"
+ TITLE "Favela Props"
+ Dependencies {
+  "58D0FB3206B6F859"
+ }
+}

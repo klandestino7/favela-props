@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{334D77BD7E8D363F}Assets/Data/kt1_09_red01a_plasterwall_01_d.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}

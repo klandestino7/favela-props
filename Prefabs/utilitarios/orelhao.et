@@ -1,0 +1,13 @@
+GenericEntity {
+ ID "61E4B8EA27421851"
+ components {
+  MeshObject "{61E17987EF1EBDA3}" {
+   Object "{59D46E88221129F9}Assets/orelhao.xob"
+  }
+  RigidBody "{61E2A79C37BA4015}" {
+   ResponseIndex "Normal"
+   ModelGeometry 1
+  }
+ }
+ coords 1251.949 33.558 3422.686
+}

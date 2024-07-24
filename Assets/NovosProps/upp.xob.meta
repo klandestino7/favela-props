@@ -1,0 +1,68 @@
+MetaFileClass {
+ Name "{46CD20B573B64CFE}Assets/NovosProps/upp.xob"
+ Configurations {
+  FBXResourceClass PC {
+   MaterialAssigns {
+    MaterialAssignClass "{61EADC3F1F255EEC}" {
+     SourceMaterial "prop_elecbox_18b"
+     AssignedMaterial "{E564D7CAB864297B}Assets/NovosProps/Data/prop_elecbox_18b.emat"
+    }
+    MaterialAssignClass "{61EADC3F1F255F0D}" {
+     SourceMaterial "im_wall_overlay03im_wall_overlay03_a"
+     AssignedMaterial "{CA397695ECC8D2BC}Assets/NovosProps/Data/im_wall_overlay03im_wall_overlay03_a.emat"
+    }
+    MaterialAssignClass "{61EADC3F1F255F07}" {
+     SourceMaterial "containerupp2"
+     AssignedMaterial "{A87B6F25735A67B3}Assets/NovosProps/Data/containerupp2.emat"
+    }
+    MaterialAssignClass "{61EADC3F1F255F3A}" {
+     SourceMaterial "containerupp"
+     AssignedMaterial "{166D8D0273CCE091}Assets/NovosProps/Data/containerupp.emat"
+    }
+    MaterialAssignClass "{61EADC3F1F255F3E}" {
+     SourceMaterial "containerupp3"
+     AssignedMaterial "{5C7328BD7E870FC7}Assets/NovosProps/Data/containerupp3.emat"
+    }
+    MaterialAssignClass "{61EADC3F1F255F36}" {
+     SourceMaterial "Tex_0009_0"
+     AssignedMaterial "{BCA7600946E4EA40}Assets/NovosProps/Data/Tex_0009_0.emat"
+    }
+   }
+   MeshParams {
+    MeshParam Object {
+    }
+   }
+   GeometryParams {
+    GeometryParam UTM_Geometry {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+   }
+   Common TXOCommonClass "{61EADC3F1ADAB343}" : "{0877E7C4BB2B2C9A}Configs/System/ResourceTypes/PC/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_ONE : PC {
+   Common TXOCommonClass "{61EADC3F1ADAB015}" : "{9D5B6207F7628CE2}Configs/System/ResourceTypes/XBOX_ONE/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass XBOX_SERIES : PC {
+   Common TXOCommonClass "{61EADC3F1ADAB059}" : "{DD9F02115C764647}Configs/System/ResourceTypes/XBOX_SERIES/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS4 : PC {
+   Common TXOCommonClass "{61EADC3F1ADAB077}" : "{53EC476BC921D99A}Configs/System/ResourceTypes/PS4/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass PS5 : PC {
+   Common TXOCommonClass "{61EADC3F1ADAB08D}" : "{F62AA8E7B8EA9D26}configs/ResourceTypes/PS5/MeshObjectCommon.conf" {
+   }
+  }
+  FBXResourceClass HEADLESS : PC {
+   Common TXOCommonClass "{61EADC3F1ADAB0A6}" : "{3A5B3356978039E8}Configs/System/ResourceTypes/HEADLESS/MeshObjectCommon.conf" {
+   }
+  }
+ }
+}

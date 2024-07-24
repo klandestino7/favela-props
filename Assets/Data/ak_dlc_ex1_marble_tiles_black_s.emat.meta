@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{D0DAB429524B8A33}Assets/Data/ak_dlc_ex1_marble_tiles_black_s.emat"
+ Configurations {
+  EMATResourceClass PC {
+  }
+  EMATResourceClass XBOX_ONE : PC {
+  }
+  EMATResourceClass XBOX_SERIES : PC {
+  }
+  EMATResourceClass PS4 : PC {
+  }
+  EMATResourceClass PS5 : PC {
+  }
+  EMATResourceClass HEADLESS : PC {
+  }
+ }
+}
