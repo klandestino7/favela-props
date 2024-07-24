@@ -4,7 +4,7 @@ SCR_DestructibleBuildingEntity {
   SignalsManagerComponent "{61E10D2751F3B506}" {
   }
   MeshObject "{61E0FD87588E6CCB}" {
-   Object "{91DF806571D42F38}Assets/barraco_6.xob"
+   Object "{91DF806571D42F38}Assets/Structures/barraco_6.xob"
    LODFactors {
     500 250 200 100 50 20 1
    }

@@ -2,7 +2,7 @@ GenericEntity {
  ID "61E4B8EA161AA1EA"
  components {
   MeshObject "{61E17987A501FB9D}" {
-   Object "{640D1D6D0CC88FB7}Assets/barraco_03.xob"
+   Object "{640D1D6D0CC88FB7}Assets/Structures/barraco_03.xob"
    LODFactors {
     20 15 10 1 1
    }

@@ -2,7 +2,7 @@ GenericEntity {
  ID "61E4B8EA7F975789"
  components {
   MeshObject "{61E17982328FE385}" {
-   Object "{A7BA28ADE2376517}Assets/escada2.xob"
+   Object "{A7BA28ADE2376517}Assets/Structures/escada2.xob"
   }
   RigidBody "{61E2A79C49F1F3FF}" {
    ModelGeometry 1

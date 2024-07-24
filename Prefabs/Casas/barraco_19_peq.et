@@ -2,7 +2,7 @@ SCR_DestructibleBuildingEntity {
  ID "61E4B8E9B1C19458"
  components {
   MeshObject "{61E179811CC9C7B9}" {
-   Object "{0153ED9FB7791916}Assets/barraco_19.xob"
+   Object "{0153ED9FB7791916}Assets/Structures/barraco_19.xob"
    LODFactors {
     20 15 10 1 1
    }
