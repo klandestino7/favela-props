@@ -7,6 +7,12 @@ GenericEntity {
     20 15 10 1 1
    }
   }
+  RigidBody "{61F553E8BDD663EB}" {
+   ModelGeometry 1
+   Static 1
+  }
+  RplComponent "{61F553E8BFA3948C}" {
+  }
  }
  coords 1232.01 27.195 3406.264
 }
