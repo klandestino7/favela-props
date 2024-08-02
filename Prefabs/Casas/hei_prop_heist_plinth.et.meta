@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F193E2BDED437227}Prefab/Casas/hei_prop_heist_plinth.et"
+ Name "{F193E2BDED437227}Prefabs/Casas/hei_prop_heist_plinth.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
