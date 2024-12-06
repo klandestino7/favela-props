@@ -43,6 +43,10 @@ MetaFileClass {
      SourceMaterial "branco"
      AssignedMaterial "{7B9E124553E2E07A}Assets/Data/branco.emat"
     }
+    MaterialAssignClass "{62F3032307E5FE5F}" {
+     SourceMaterial "cortinas_light_02"
+     AssignedMaterial "{2C10C6E7683738A3}Assets/Structures/Data/cortinas_light_02.emat"
+    }
    }
    MeshParams {
     MeshParam "1" {

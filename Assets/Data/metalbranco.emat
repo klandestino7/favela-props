@@ -1,3 +1,4 @@
 MatPBRBasic {
+ Color 0.831 0.831 0.831 1
  BCRMap "{69BB09C28C3D227D}Assets/Textures/metalbranco.edds"
 }

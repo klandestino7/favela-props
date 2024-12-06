@@ -3,9 +3,9 @@ MetaFileClass {
  Configurations {
   FBXResourceClass PC {
    MaterialAssigns {
-    MaterialAssignClass "{61E1798DDE968AD9}" {
-     SourceMaterial "parede_04"
-     AssignedMaterial "{AFBD190E71C862E3}Assets/Data/parede_04.emat"
+    MaterialAssignClass "{61E1798DDE968B10}" {
+     SourceMaterial "branco"
+     AssignedMaterial "{7B9E124553E2E07A}Assets/Data/branco.emat"
     }
     MaterialAssignClass "{61E1798DDE968AF8}" {
      SourceMaterial "cortina_02"
@@ -39,9 +39,13 @@ MetaFileClass {
      SourceMaterial "cortina_01"
      AssignedMaterial "{AC03ABAC559DC925}Assets/Data/cortina_01.emat"
     }
-    MaterialAssignClass "{61E1798DDE968B10}" {
-     SourceMaterial "branco"
-     AssignedMaterial "{7B9E124553E2E07A}Assets/Data/branco.emat"
+    MaterialAssignClass "{62F30323940338BC}" {
+     SourceMaterial "parede_07"
+     AssignedMaterial "{BFC0F3C7417D9EA4}Assets/Structures/Data/parede_07.emat"
+    }
+    MaterialAssignClass "{62F303239403385B}" {
+     SourceMaterial "cortinas_light_02"
+     AssignedMaterial "{2C10C6E7683738A3}Assets/Structures/Data/cortinas_light_02.emat"
     }
    }
    MeshParams {

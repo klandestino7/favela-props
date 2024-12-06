@@ -25,32 +25,29 @@ MetaFileClass {
     }
    }
    GeometryParams {
-    GeometryParam UTM_FireGeometry {
-     LayerPreset "FireView"
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_Geometry {
-     LayerPreset "Prop"
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
-    GeometryParam UTM_GeometryPhysX {
-     LayerPreset "Vehicle"
-     SurfaceProperties {
-      "{536BF67B2052B869}material/metal.gamemat"
-     }
-     Mass 0
-     Margin 0
-    }
     GeometryParam UTM_ViewGeometry {
      LayerPreset "ViewGeo"
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_FireGeometry.001" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_Geometry.001" {
+     SurfaceProperties {
+      "{536BF67B2052B869}material/metal.gamemat"
+     }
+     Mass 0
+     Margin 0
+    }
+    GeometryParam "UTM_GeometryPhysX.001" {
      SurfaceProperties {
       "{536BF67B2052B869}material/metal.gamemat"
      }
